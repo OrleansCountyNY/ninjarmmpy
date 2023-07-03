@@ -10,7 +10,7 @@ client = ninjarmmpy.Client(
     Europe=False
 )
 # Get a list of processors for all devices as Python dictionaries
-processors = client.get_processors()
+processors = client.getProcessors()
 # For this example, we're just going to convert the dictionaries to JSON and write them to a file.
 processors = json.dumps(processors)
 # Now we can write the results to a JSON file.
