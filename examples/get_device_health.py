@@ -9,8 +9,9 @@ client = ninjarmmpy.Client(
     SecretAccessKey=os.environ.get('NRMM_SECRET'),
     Europe=False
 )
+organizationID = 'YOUR_ORG_ID' #This is an integer value
 # Get a list of device health reports for all devices as Python dictionaries
-device_health = client.get_device_health()
+device_health = client.getDeviceAlerts(organizationID)
 # For this example, we're just going to convert the dictionaries to JSON and write them to a file.
 device_health = json.dumps(device_health)
 # Now we can write the results to a JSON file.
