@@ -10,7 +10,7 @@ client = ninjarmmpy.Client(
     Europe=False
 )
 # Get a list of disks for all devices as Python dictionaries
-disks = client.get_disks()
+disks = client.getDiskDrives()
 # For this example, we're just going to convert the dictionaries to JSON and write them to a file.
 disks = json.dumps(disks)
 # Now we can write the results to a JSON file.
