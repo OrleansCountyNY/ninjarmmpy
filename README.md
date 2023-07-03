@@ -1,5 +1,7 @@
 # NinjaRMMPy
 
+The whole purpose of this fork is to update the examples and perhaps add better (more up to date) documentation, no major code changes will occur
+
 ## What is this repository for?
 
 Unoffical [NinjaRMM API v2](https://app.ninjarmm.com/apidocs/) client for Python.
