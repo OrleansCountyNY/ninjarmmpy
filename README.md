@@ -1,6 +1,6 @@
 # NinjaRMMPy
 
-The whole purpose of this fork is to update the examples and perhaps add better (more up to date) documentation, no major code changes will occur
+The whole purpose of this fork is to update the examples and perhaps add better (more up to date) documentation, no major code changes will occur. This is a work-in-progress
 
 ## What is this repository for?
 
