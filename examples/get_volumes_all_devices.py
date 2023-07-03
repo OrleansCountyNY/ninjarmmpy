@@ -10,7 +10,7 @@ client = ninjarmmpy.Client(
     Europe=False
 )
 # Get a list of volumes for all devices as Python dictionaries
-volumes = client.get_volumes()
+volumes = client.getVolumes()
 # For this example, we're just going to convert the dictionaries to JSON and write them to a file.
 volumes = json.dumps(volumes)
 # Now we can write the results to a JSON file.
