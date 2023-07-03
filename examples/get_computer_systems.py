@@ -10,7 +10,7 @@ client = ninjarmmpy.Client(
     Europe=False
 )
 # Get a list of computer systems for all devices as Python dictionaries
-computer_systems = client.get_computer_systems()
+computer_systems = client.getComputerSystems()
 # For this example, we're just going to convert the dictionaries to JSON and write them to a file.
 computer_systems = json.dumps(computer_systems)
 # Now we can write the results to a JSON file.
